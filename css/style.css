@@ -1,0 +1,125 @@
+/* General Styles */
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+p {
+    font-size: 1em;
+    text-decoration: none;
+    color: #000000;
+}
+
+h1 {
+    font-family: 'Lemon', cursive;
+}
+
+/* Header */
+
+#intro {
+    background-color:rgba(18,20,120,0.5);
+}
+
+#intro h1 {
+    font-weight: bold;
+}
+
+#intro p.titre {
+    font-weight: bold;
+}
+
+/* Background Picture */
+
+#background-nav {
+    height: 80%;
+    background-image: url("../img/picnik2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+
+#main-nav {
+    background-color: #222222;
+    width: 100%;
+    z-index: 100;
+}
+
+#main-nav ul li {
+    padding-bottom: 0;
+}
+
+#main-nav ul {
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+/* About */
+
+#about {
+    background-color: #303030;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.photo img {
+    border-radius: 100%;
+    max-height: 300px;
+}
+
+#about p {
+    font-family: 'Homemade Apple', cursive;
+}
+
+/* Resume */
+
+#resume {
+    background-color: #b9b9b9 ;
+    height: auto;
+}
+
+/* Projects */
+
+#projects {
+    height: auto;
+    background-color:rgba(11,30,22,0.4);
+}
+
+#projects .photo-container {
+
+}
+
+#projects li {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+#projects ul.photo-container {
+    overflow: hidden;
+}
+
+#projects ul li {
+    max-height: 190px;
+    overflow: hidden;
+}
+/* Get In Touch */
+
+#get-in-touch {
+    background-color:rgba(255,214,214,0.5);
+    height: auto;
+}
+
+ul.contact-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
